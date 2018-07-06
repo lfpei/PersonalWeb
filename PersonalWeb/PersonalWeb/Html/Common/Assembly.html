@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body>
+    <h4>选择省</h4>
+<div class="selectSheng"></div>
+<select name="sheng"> 
+    <option value="">请选择</option>
+</select>
+<select name="shi">
+    <option value="">请选择</option>
+</select>
+<select name="qu">
+    <option value="">请选择</option>
+</select>
+<script src="../../Scripts/jquery-1.11.3.min.js"></script>
+<script src="../js/AreaData_min.js"></script>
+<script type="text/javascript">
+    var sheng = shengVal = shengName = shiVal = shiName = "";
+    for (key in area_array) {
+        sheng += "<option value='" + key + "'>" + area_array[key] + "</option>";
+    }
+    $("select[name='sheng']").html(sheng);
+    //shi 
+    $("select[name='sheng']").change(function () {
+        var shi = "";
+        shengVal = $(this).val();
+        shengName = $(this).find("option[value='" + shengVal + "']").html();
+        for (key in sub_array[shengVal]) {
+            shi += "<option value='" + key + "'>" + sub_array[shengVal][key] + "</option>";
+        }
+        $("select[name='shi']").html(shi);
+    });
+    $("select[name='shi']").change(function () {
+        shiVal = $(this).val();
+        shiName = $(this).find("option[value='" + shiVal + "']").html();
+        var qu = "";
+        for (key in sub_arr[shiVal]) {
+            qu += "<option value='" + key + "'>" + sub_arr[shiVal][key] + "</option>";
+        }
+        $("select[name='qu']").html(qu);
+    });
+</script>
+</body>
+</html>

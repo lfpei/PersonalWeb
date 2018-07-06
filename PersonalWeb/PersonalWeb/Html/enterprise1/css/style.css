@@ -1,0 +1,104 @@
+﻿body {
+    font-family: "Microsoft YaHei","Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", SimHei, "\5B8B\4F53", simsun, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar-header {
+}
+
+    .navbar-header > a {
+        padding: 0;
+    }
+
+    .navbar-header a img {
+        border-radius: 50px;
+        display: inline;
+    }
+
+    .navbar-header a span {
+        font-family: STXinwei;
+        display: inline-block;
+        padding-top: 15px;
+        color: #000;
+    }
+
+.container-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.side {
+    background-color: #fff;
+    box-shadow:2px 2px #808080;
+    margin-bottom:20px;
+}
+.leftside {
+    text-align: center;
+}
+.mytable tr td {
+    text-align:left;
+}
+#footer {
+    background-color: #e7e7e7;
+    text-align: center;
+    font-size: 8px;
+}
+.sides {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    list-style:none;
+    padding: 10px 0;
+}
+    .sides li {
+        display:-webkit-box;
+        padding-left:20px;
+        font-size:12px;
+    }
+.mycontainer {
+    margin:15px 15px 15px 15px;
+}
+@media (min-width: 768px) {
+    .navbar-header a span {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 965px) {
+    .navbar-header a span {
+        font-size: 25px;
+    }
+
+    .navbar-header a img {
+        margin-top: -15px;
+    }
+
+    #footer {
+        font-size: 14px;
+    }
+    .sides h3 {
+        font-size:15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-header a span {
+        font-size: 35px;
+    }
+
+    .navbar-header a img {
+        margin-top: -8px;
+    }
+
+    #footer {
+        font-size: 14px;
+    }
+    .sides li {
+        display:-webkit-box;
+        padding-left:40px;
+        font-size:16px;
+    }
+}

@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Content/bootstrap.min.css" rel="stylesheet">
+    <link href="../lib/bootstrap/css/fileinput.min.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+    <script src="http://malsup.github.io/jquery.form.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../lib/bootstrap/js/fileinput.min.js"></script>
+    <script src="../lib/bootstrap/js/locales/zh.js"></script>
+    <script src="js/uploadfile.js"></script>
+</head>
+<body>
+    <div class="table-responsive" style="margin: 60px 150px">
+        <table style="border-collapse: separate; border-spacing: 0px 10px;">
+            <tr>
+                <td>姓名：</td>
+                <td>
+                    <input type="text" class="form-control">
+                </td>
+                <td>性别：</td>
+                <td>
+                    <select class="form-control">
+                        <option value="1">男</option>
+                        <option value="2">女</option>
+                        <option value="0">其他</option>
+                    </select>
+                </td>
+                <td>身份证号：</td>
+                <td>
+                    <input type="text" class="form-control"></td>
+                <td>所属医院：</td>
+                <td>
+                    <input type="text" class="form-control"></td>
+            </tr>
+            <tr>
+                <td>联系方式：</td>
+                <td>
+                    <input type="text" class="form-control"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="width: 80px;">所做项目：</td>
+                <td colspan="7">
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目1</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目2</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目3</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目4</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目5</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目6</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目1</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目2</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目3</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目4</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目5</label>
+                    </div>
+                    <div class="checkbox line-td-div">
+                        <label>
+                            <input type="checkbox" value="">项目6</label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>备注：</td>
+                <td colspan="7">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>上传附件：</td>
+                <td colspan="7">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" style="height: 200px;" id="fileName"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <!--<form id="fileupload" enctype="multipart/form-data">
+                        <a href="javascript:;" class="file">选择文件
+                            <input type="file" name="loadfile" id="uploadfile" runat="server">
+                        </a>
+                    </form>-->
+                    <form method="post" action="../Controllers/Handler1.ashx" enctype="multipart/form-data">
+                        <input type="file" name="UpFile" />
+                        <input type="submit" name="btn" value="上传" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

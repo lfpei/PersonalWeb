@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../lib/bootstrapfile/css/fileinput.min.css" rel="stylesheet">
+    <link href="../../lib/layer/mobile/need/layer.css" rel="stylesheet">
+    <title></title>
+    <style type="text/css">
+        .file {
+            position: relative;
+            display: inline-block;
+            background: #286090;
+            border: 1px solid #99D3F5;
+            border-radius: 4px;
+            padding: 4px 12px;
+            overflow: hidden;
+            color: #fff;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+
+            .file input {
+                position: absolute;
+                font-size: 100px;
+                right: 0;
+                top: 0;
+                opacity: 0;
+            }
+
+            .file:hover {
+                background: #286090;
+                border-color: #286090;
+                color: #fff;
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <nav class="nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">全球代购</a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../MyCompany/index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;首页</a></li>
+                    <li><a href="../MyCompany/facialmask.html"><span class="glyphicon glyphicon-cloud"></span>&nbsp;产品</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-list"></span>&nbsp;个人介绍</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;联系我们</a></li>
+                    <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;娱乐</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../games.html">游戏</a></li>
+                            <li class="active"><a href="#">二维码</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-left"  style="margin-top: 60px;">
+        <label>请输入内容：</label>
+        <input type="text" id="content"><br>
+        <a href="javascript:;" class="file" style="margin-top:20px;">上传图片  
+            <input type="file" name="" id="relfile" accept="image/*">
+        </a>
+        <span id="filename" style="vertical-align: middle;display:inline-block;margin-top:-20px;">未上传文件</span>
+        <div style="width:181px;height:181px;border:1px solid #000000;margin-top:20px;">
+            <img src="" id="qrCodeUrl">
+        </div>
+        <input type="button" class="btn btn-primary" value="生成二维码" style="margin-top:20px;" id="QrCode">
+    </div>
+
+    <script src="../../Scripts/jquery-1.11.3.min.js"></script>
+    <script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../lib/bootstrapfile/js/fileinput.min.js"></script>
+    <script src="../../lib/layer/layer.js"></script>
+    <script src="../js/common.js" type="text/javascript"></script>
+    <script src="../js/uploadfile.js"></script>
+</body>
+</html>
