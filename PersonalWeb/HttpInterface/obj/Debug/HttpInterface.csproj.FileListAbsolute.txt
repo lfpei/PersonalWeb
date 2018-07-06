@@ -1,0 +1,16 @@
+E:\PersonalWeb\HttpInterface\bin\HttpInterface.dll
+E:\PersonalWeb\HttpInterface\bin\HttpInterface.pdb
+E:\PersonalWeb\HttpInterface\obj\Debug\HttpInterface.dll
+E:\PersonalWeb\HttpInterface\obj\Debug\HttpInterface.pdb
+E:\PersonalWeb\HttpInterface\bin\Newtonsoft.Json.dll
+E:\PersonalWeb\HttpInterface\bin\System.Net.Http.Formatting.dll
+E:\PersonalWeb\HttpInterface\bin\System.Web.Http.dll
+E:\PersonalWeb\HttpInterface\bin\System.Web.Http.WebHost.dll
+E:\PersonalWeb\HttpInterface\bin\Newtonsoft.Json.xml
+E:\PersonalWeb\HttpInterface\bin\System.Net.Http.Formatting.xml
+E:\PersonalWeb\HttpInterface\bin\System.Web.Http.xml
+E:\PersonalWeb\HttpInterface\bin\System.Web.Http.WebHost.xml
+E:\PersonalWeb\HttpInterface\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\PersonalWeb\HttpInterface\bin\zh-Hans\System.Web.Http.resources.dll
+E:\PersonalWeb\HttpInterface\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+E:\PersonalWeb\HttpInterface\obj\Debug\HttpInterface.csprojResolveAssemblyReference.cache

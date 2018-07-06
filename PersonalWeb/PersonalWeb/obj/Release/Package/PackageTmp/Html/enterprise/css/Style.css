@@ -1,0 +1,150 @@
+﻿body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+
+#footer {
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.aaa {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.bbb {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.container-top {
+    margin-top: 50px;
+}
+
+.container-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.media .media-line-img {
+    width: 120px;
+    height: 120px;
+}
+
+.media-line {
+    padding-top: 20px;
+}
+
+.jumbotron {
+    background-color: #000;
+}
+
+    .jumbotron h2 {
+        color: #eee;
+        padding: 30px 0 0 0;
+    }
+
+    .jumbotron h4 {
+        color: #eee;
+        padding: 20px 0 0 0;
+    }
+
+.nav-left-content {
+    background-color: #fff;
+    box-shadow: #808080;
+}
+
+@media (min-width: 768px) {
+    .aaa {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .bbb {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+}
+
+.content {
+    background-color: #fff;
+    box-shadow: 2px 2px #ccc;
+    margin-bottom: 20px;
+}
+
+.container-fluid .row {
+    margin-bottom: 20px;
+}
+
+ul.nav-tabs {
+    width: 140px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+
+    ul.nav-tabs li {
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+
+        ul.nav-tabs li:first-child {
+            border-top: none;
+        }
+
+        ul.nav-tabs li a {
+            margin: 0;
+            padding: 8px 16px;
+            border-radius: 0;
+        }
+
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+
+        ul.nav-tabs li:first-child a {
+            border-radius: 4px 4px 0 0;
+        }
+
+        ul.nav-tabs li:last-child a {
+            border-radius: 0 0 4px 4px;
+        }
+
+    ul.nav-tabs.affix {
+        top: 150px; /* Set the top position of pinned element */
+    }
+
+@media (min-width:992px) {
+    .aaa {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .bbb {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (min-width:1200px) {
+    .aaa {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .bbb {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+}

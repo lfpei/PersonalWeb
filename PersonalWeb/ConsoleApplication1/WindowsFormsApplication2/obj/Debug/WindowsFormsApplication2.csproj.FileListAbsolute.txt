@@ -1,0 +1,10 @@
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\bin\Debug\Apache.NMS.dll
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\PersonalWeb\ConsoleApplication1\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb

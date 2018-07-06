@@ -1,0 +1,5 @@
+E:\PersonalWeb\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+E:\PersonalWeb\WebService\bin\WebService.dll
+E:\PersonalWeb\WebService\bin\WebService.pdb
+E:\PersonalWeb\WebService\obj\Debug\WebService.dll
+E:\PersonalWeb\WebService\obj\Debug\WebService.pdb

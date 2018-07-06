@@ -1,0 +1,13 @@
+E:\PersonalWeb\Thread\Thread\bin\Debug\Thread.exe.config
+E:\PersonalWeb\Thread\Thread\bin\Debug\Thread.exe
+E:\PersonalWeb\Thread\Thread\bin\Debug\Thread.pdb
+E:\PersonalWeb\Thread\Thread\obj\Debug\NewThread.csprojResolveAssemblyReference.cache
+E:\PersonalWeb\Thread\Thread\obj\Debug\NewThread.Form1.resources
+E:\PersonalWeb\Thread\Thread\obj\Debug\Thread.Properties.Resources.resources
+E:\PersonalWeb\Thread\Thread\obj\Debug\NewThread.csproj.GenerateResource.Cache
+E:\PersonalWeb\Thread\Thread\obj\Debug\Thread.exe
+E:\PersonalWeb\Thread\Thread\obj\Debug\Thread.pdb
+E:\PersonalWeb\Thread\Thread\bin\Debug\Thread.exe.manifest
+E:\PersonalWeb\Thread\Thread\bin\Debug\Thread.application
+E:\PersonalWeb\Thread\Thread\obj\Debug\Thread.exe.manifest
+E:\PersonalWeb\Thread\Thread\obj\Debug\Thread.application

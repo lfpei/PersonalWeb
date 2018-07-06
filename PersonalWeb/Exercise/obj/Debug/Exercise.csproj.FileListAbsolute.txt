@@ -1,0 +1,14 @@
+E:\PersonalWeb\Exercise\bin\Debug\Exercise.exe.config
+E:\PersonalWeb\Exercise\bin\Debug\Exercise.exe
+E:\PersonalWeb\Exercise\bin\Debug\Exercise.pdb
+E:\PersonalWeb\Exercise\bin\Debug\Newtonsoft.Json.dll
+E:\PersonalWeb\Exercise\obj\Debug\Exercise.Properties.Resources.resources
+E:\PersonalWeb\Exercise\obj\Debug\Exercise.csproj.GenerateResource.Cache
+E:\PersonalWeb\Exercise\obj\Debug\Exercise.exe
+E:\PersonalWeb\Exercise\obj\Debug\Exercise.pdb
+E:\PersonalWeb\Exercise\obj\Debug\Exercise.Form1.resources
+E:\PersonalWeb\Exercise\obj\Debug\Exercise.Form2.resources
+E:\PersonalWeb\Exercise\obj\Debug\Exercise.csprojResolveAssemblyReference.cache
+E:\GitCode\Source\Repos\PersonalWeb\PersonalWeb\Exercise\bin\Debug\Exercise.exe.config
+E:\GitCode\Source\Repos\PersonalWeb\PersonalWeb\Exercise\obj\Debug\Exercise.exe
+E:\GitCode\Source\Repos\PersonalWeb\PersonalWeb\Exercise\obj\Debug\Exercise.pdb

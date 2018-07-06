@@ -1,0 +1,45 @@
+﻿<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>裴龙菲社区</title>
+    <!-- Custom Theme files -->
+    <link href="css/login.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Custom Theme files -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="后台登录" />
+    <script src="../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+    <script src="js/login.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="login-form">
+        <h1>登录</h1>
+        <div class="login-top">
+            <div class="login-ic">
+                <i></i>
+                <input type="text" placeholder="请输入用户名" onfocus="this.placeholder = '';" onblur="if(this.value == '') this.placeholder = '请输入用户名';" onkeyup="num(this)" maxlength="11" />
+                <div class="clear"></div>
+            </div>
+            <div class="login-ic">
+                <i class="icon"></i>
+                <input type="password" placeholder="请输入密码" onfocus="this.placeholder = '';" onblur="if(this.value == '') this.placeholder = '请输入密码';" maxlength="30" />
+                <div class="clear"></div>
+            </div>
+            <div class="log-bwn">
+                <input type="submit" id="login" value="登录" style="width: 48%">
+                <input type="submit" value="注册" class="submit-right" style="width: 48%" onclick="register()">
+            </div>
+        </div>
+        <footer>
+            <p class="copy">© 2016 longfeiPei</p>
+        </footer>
+    </div>
+</body>
+</html>

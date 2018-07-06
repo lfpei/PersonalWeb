@@ -1,0 +1,9 @@
+E:\PersonalWeb\ConsoleApplication1\SendMessage\obj\Debug\SendMessage.Properties.Resources.resources
+E:\PersonalWeb\ConsoleApplication1\SendMessage\obj\Debug\SendMessage.csproj.GenerateResource.Cache
+E:\PersonalWeb\ConsoleApplication1\SendMessage\bin\Debug\SendMessage.exe.config
+E:\PersonalWeb\ConsoleApplication1\SendMessage\bin\Debug\SendMessage.exe
+E:\PersonalWeb\ConsoleApplication1\SendMessage\bin\Debug\SendMessage.pdb
+E:\PersonalWeb\ConsoleApplication1\SendMessage\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\PersonalWeb\ConsoleApplication1\SendMessage\bin\Debug\Apache.NMS.dll
+E:\PersonalWeb\ConsoleApplication1\SendMessage\obj\Debug\SendMessage.exe
+E:\PersonalWeb\ConsoleApplication1\SendMessage\obj\Debug\SendMessage.pdb

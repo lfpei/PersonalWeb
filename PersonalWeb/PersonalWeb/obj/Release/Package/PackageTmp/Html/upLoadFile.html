@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>文件上传</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Content/bootstrap.min.css" rel="stylesheet">
+    <link href="../lib/bootstrap/css/fileinput.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../lib/bootstrap/js/fileinput.min.js"></script>
+    <script src="../lib/bootstrap/js/locales/zh.js"></script>
+    <script src="js/uploadfile.js"></script>
+</head>
+<body style="background-image:url(./images/timg.jpg)">
+    <div class="table-responsive" style="margin:20px 80px;">
+        <table>
+            <tr>
+                <td>用户名称：</td>
+                <td>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button" id="uploadfile">
+                                搜索
+                            </button>
+                        </span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="table-responsive" style="margin:20px 80px;">
+        <table class="table table-bordered" style="text-align:center;">
+            <caption></caption>
+            <thead >
+                <tr>
+                    <th style="text-align:center;">客户名称</th>
+                    <th style="text-align:center;">身份证号码</th>
+                    <th style="text-align:center;">所属医院</th>
+                    <th style="text-align:center;">是否通过</th>
+                    <th style="text-align:center;">包含附件</th>
+                    <th style="text-align:center;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{0}</td>
+                    <td>{1}</td>
+                    <td>{2}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

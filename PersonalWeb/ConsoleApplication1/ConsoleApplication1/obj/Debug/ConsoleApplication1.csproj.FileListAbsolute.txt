@@ -1,0 +1,10 @@
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\bin\Debug\Apache.NMS.dll
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\bin\Debug\SendMessage.exe
+E:\PersonalWeb\ConsoleApplication1\ConsoleApplication1\bin\Debug\SendMessage.pdb
